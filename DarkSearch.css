@@ -1,5 +1,5 @@
 @-moz-document regexp("https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
-    /*
+/*
      * Name:    DarkSearch for Google
      * Author:  Nass O
      * Version: v2.1.8
@@ -788,7 +788,7 @@
         border-color: #333;
     }
     .gb_Cb, .gb_Eb { /* multiLogin listing */
-        background: #222;
+        background: #1d1d1d;
     }
     div.gb_Ib > div.gb_Qb{
             color: #c5c5c5!important;                                  
@@ -1120,10 +1120,10 @@
     .act-btn-row, .act-tim-fs-cnt {
         border-top: 1px solid #1d1d1d;
     }
-
 }
+
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
-    /* Google Alerts Dropdown iframe */
+/* Google Alerts Dropdown iframe */
     .aac, .Rzc, .WdjWF, .WpuQke {
         background-color: #212121;
     }
@@ -1149,8 +1149,9 @@
         color: #868686;
     }
 }
+
 @-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
-    /* Google Notifications Dropdown iframe */
+/* Google Notifications Dropdown iframe */
 
     .gV6pJf, #gbsfw.gb_Ic { /*dropdown background*/
         background: #212121!important;
